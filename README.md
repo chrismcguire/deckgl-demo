@@ -34,3 +34,7 @@ The quantile usage here is kind of fudged a bit.
 
 /tooltip-zip-map
 Adds a hover tooltip to the styled-zip-map
+
+### Building the tree zip geojson
+There's a python file in /scripts that expects the two geojson files locally.
+Run that and it will write zip-trees.geojson
