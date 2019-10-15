@@ -437,6 +437,7 @@ function App() {
       <Route exact path="/kinda-styled-zip-map" component={KindaStyledZipMap} />
       <Route exact path="/styled-zip-map" component={StyledZipMap} />
       <Route exact path="/tooltip-zip-map" component={TooltipStyledZipMap} />
+      <Route exact path="/" component={TooltipStyledZipMap} />
     </Router>
   );
 }

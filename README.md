@@ -1,5 +1,7 @@
 Deck GL talk examples
 
+To run, clone the repo.
+
 ### To install
 
 ``` npm install ```
@@ -7,6 +9,11 @@ Deck GL talk examples
 ### To run
 
 ``` npm start ```
+
+A bunch of these examples use mapbox tiles. If you want those to render, you'll
+need to create a mapbox account and get a token (it should be free).
+
+Once you have that, paste it here: https://github.com/chrismcguire/deckgl-demo/blob/master/src/App.js#L17
 
 There are a few different routes for various maps here.
 
